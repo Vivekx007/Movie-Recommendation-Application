@@ -13,21 +13,22 @@ The user registration API creates a user account in your application. A registra
 Method : POST
 
 Endpoint URL : https://movies-api-bd5r.onrender.com/api/auth/register/
-
+```js
 Request Body
 {
-"username" : value,
-"email" : value,
-"password" : value
+  "username" : value,
+  "email" : value,
+  "password" : value
 }
 
 Response Body
 {
-"username": value,
-"email": value,
-"password": value, <<< THIS VALUE IS ENCRYPTED
-"isAdmin": Boolean value,
-"_id": value,
-"createdAt": created timestamp value,
-"updatedAt": updated timestamp value
+  "username": value,
+  "email": value,
+  "password": value, <<< THIS VALUE IS ENCRYPTED
+  "isAdmin": Boolean value,
+  "_id": value,
+  "createdAt": created timestamp value,
+  "updatedAt": updated timestamp value
 }
+```
