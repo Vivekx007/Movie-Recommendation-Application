@@ -25,7 +25,7 @@ Response Body
 {
   "username": value,
   "email": value,
-  "password": value, <<< THIS VALUE IS ENCRYPTED
+  "password": value,  {/* THIS VALUE IS ENCRYPTED */}
   "isAdmin": Boolean value,
   "_id": value,
   "createdAt": created timestamp value,
